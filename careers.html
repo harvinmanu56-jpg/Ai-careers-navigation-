@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Careers - AI Career Navigator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">AI <span>Career Navigator</span></div>
+
+<button class="menu-btn" id="menuBtn">☰</button>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="careers.html">Careers</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="roadmap.html">Roadmap</a></li>
+<li><a href="ai-tools.html">AI Tools</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="profile.html">Profile</a></li>
+</ul>
+
+<button class="theme-btn" id="themeBtn">☀️</button>
+</nav>
+</header>
+
+
+<section>
+
+<div class="container">
+
+<div class="section-title">
+<h2>Explore Careers</h2>
+<p>Discover careers shaping the future of technology.</p>
+</div>
+
+<div class="career-search">
+<input id="careerSearch"
+placeholder="🔎 Search careers...">
+</div>
+
+
+<div class="grid">
+
+<div class="card career-card" data-career="AI / ML Engineer">
+<div class="icon">🤖</div>
+<h3>AI / ML Engineer</h3>
+<p>Build intelligent systems using Artificial Intelligence and Machine Learning.</p>
+</div>
+
+<div class="card career-card" data-career="Data Scientist">
+<div class="icon">📊</div>
+<h3>Data Scientist</h3>
+<p>Analyze data and discover useful insights and predictions.</p>
+</div>
+
+<div class="card career-card" data-career="Software Developer">
+<div class="icon">💻</div>
+<h3>Software Developer</h3>
+<p>Design and build modern applications and digital products.</p>
+</div>
+
+<div class="card career-card" data-career="Cybersecurity">
+<div class="icon">🔐</div>
+<h3>Cybersecurity Specialist</h3>
+<p>Protect systems, networks and information from digital threats.</p>
+</div>
+
+<div class="card career-card" data-career="Robotics Engineer">
+<div class="icon">🦾</div>
+<h3>Robotics Engineer</h3>
+<p>Develop intelligent machines and automated systems.</p>
+</div>
+
+<div class="card career-card" data-career="Cloud Engineer">
+<div class="icon">☁️</div>
+<h3>Cloud Engineer</h3>
+<p>Build and manage scalable cloud-based technology systems.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<div id="careerModal" class="modal">
+
+<div class="modal-content">
+
+<button class="close-btn" id="closeModal">&times;</button>
+
+<h2 id="modalTitle"></h2>
+
+<p id="modalDescription"></p>
+
+<h3>Required Skills</h3>
+<ul id="modalSkills"></ul>
+
+<h3>Career Path</h3>
+<p id="modalPath"></p>
+
+</div>
+</div>
+
+
+<footer>
+© 2026 AI Career Navigator. All rights reserved.
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
