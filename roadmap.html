@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roadmap - AI Career Navigator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+
+<div class="logo">AI <span>Career Navigator</span></div>
+
+<button class="menu-btn" id="menuBtn">☰</button>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="careers.html">Careers</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="roadmap.html">Roadmap</a></li>
+<li><a href="ai-tools.html">AI Tools</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="profile.html">Profile</a></li>
+</ul>
+
+<button class="theme-btn" id="themeBtn">☀️</button>
+
+</nav>
+</header>
+
+
+<section class="roadmap-page">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Career Roadmap</h2>
+<p>Click any step to learn what you should do.</p>
+</div>
+
+
+<div class="progress-box">
+
+<h3>📈 Roadmap Progress</h3>
+
+<div class="progress-bar">
+<div id="progressFill"></div>
+</div>
+
+<p id="progressText">0 of 5 steps completed (0%)</p>
+
+</div>
+
+
+<div class="roadmap">
+
+<div class="step">
+<input type="checkbox" class="roadmap-check">
+<span>STEP 01</span>
+<h3>Discover</h3>
+<p>Understand your interests, strengths and career goals.</p>
+</div>
+
+<div class="step">
+<input type="checkbox" class="roadmap-check">
+<span>STEP 02</span>
+<h3>Learn Fundamentals</h3>
+<p>Build your foundation in programming and technology.</p>
+</div>
+
+<div class="step">
+<input type="checkbox" class="roadmap-check">
+<span>STEP 03</span>
+<h3>Develop Skills</h3>
+<p>Learn the technical and professional skills required.</p>
+</div>
+
+<div class="step">
+<input type="checkbox" class="roadmap-check">
+<span>STEP 04</span>
+<h3>Build Projects</h3>
+<p>Create real-world projects and strengthen your portfolio.</p>
+</div>
+
+<div class="step">
+<input type="checkbox" class="roadmap-check">
+<span>STEP 05</span>
+<h3>Launch Your Career</h3>
+<p>Prepare your resume and apply for opportunities.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<div id="roadmapModal" class="modal">
+
+<div class="modal-content">
+
+<button class="close-btn" id="closeRoadmapModal">&times;</button>
+
+<h2 id="roadmapTitle"></h2>
+
+<p id="roadmapDescription"></p>
+
+<h3>What You Should Do</h3>
+
+<ul id="roadmapTasks"></ul>
+
+</div>
+</div>
+
+
+<footer>
+© 2026 AI Career Navigator. All rights reserved.
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
